@@ -1,0 +1,25 @@
+@import '~normalize.css';
+
+// FONTS
+@import './fonts.scss';
+
+// VARIABLES
+$main-color: tomato;
+// INITIAL
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+#babylon{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  left: 0px;
+}
+// FILES
+
+@import 'components/main';
+@import 'components/logo';
